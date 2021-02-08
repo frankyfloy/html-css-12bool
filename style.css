@@ -1,0 +1,32 @@
+
+.container > [class^='col-']{
+    background-color: #ffc0cb;
+    border: solid black 1px;
+    height: 200px;
+    text-align: center;
+}
+
+.container-content > .col-content{
+    background-color: #ef7f80;
+    border: solid white 1px;
+    height: 100%;
+    text-align: center;
+}
+
+[class^='text']{
+    font-weight: bold;
+}
+
+.text-col-content{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 185px;
+    vertical-align: middle;
+}
+
+
+.text{
+    line-height: 200px;
+    vertical-align: middle;
+}
